@@ -19,6 +19,7 @@ int main()
         execlp("who", "who", NULL);
         perror("execlp");
         exit(1);
+        //test
     }
     if (pid != 0)
     {
